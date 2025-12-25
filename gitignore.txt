@@ -1,0 +1,96 @@
+# =========================
+# IDE / EDITORS
+# =========================
+.idea/
+.vscode/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+
+# =========================
+# ENV / SECRETS (CRITICO)
+# =========================
+.env
+.env.*
+!.env.example
+env.txt
+**/env.txt
+*token.json*
+*credentials.json*
+*.pem
+
+# =========================
+# NODE / FRONTEND
+# =========================
+node_modules/
+**/node_modules/
+
+build/
+dist/
+.out/
+.next/
+coverage/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+.pnp
+.pnp.js
+
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+.yarn/install-state.gz
+
+# =========================
+# PYTHON / BACKEND
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+
+venv/
+.venv/
+
+.ipynb_checkpoints/
+
+# =========================
+# DATABASE / RUNTIME DATA
+# =========================
+dump.rdb
+*.sqlite
+*.db
+
+# =========================
+# CACHES / TEMP
+# =========================
+.cache/
+*.log
+
+# =========================
+# EMERGENT / AI TOOLS
+# =========================
+.emergent/
+
+# =========================
+# DEPLOY / HOSTING
+# =========================
+.vercel
+
+# =========================
+# ARCHIVES / BINARIES
+# =========================
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.pack
+*.deb
+*.dylib
+frontend/.env
